@@ -1,0 +1,25 @@
+/target/
+/logs/
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+
+### Maven ###
+target/
+mvnw.cmd
+!/.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+.run
+*.iws
+*.iml
+*.ipr
