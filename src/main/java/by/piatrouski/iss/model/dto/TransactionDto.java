@@ -4,11 +4,15 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 
 import by.piatrouski.iss.model.TransactionStatus;
 import java.math.BigDecimal;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class TransactionDto {
     private Long id;

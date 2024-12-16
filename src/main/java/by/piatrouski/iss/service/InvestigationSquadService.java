@@ -6,6 +6,6 @@ public interface InvestigationSquadService {
 
     String createAndInvestigateTransaction(TransactionDto request);
 
-    TransactionDto getTransactionStatus(Long transactionId);
+    TransactionDto getTransaction(Long transactionId);
 
 }

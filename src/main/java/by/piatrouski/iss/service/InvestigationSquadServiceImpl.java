@@ -41,7 +41,7 @@ public class InvestigationSquadServiceImpl implements InvestigationSquadService 
     }
 
     @Override
-    public TransactionDto getTransactionStatus(Long transactionId) {
+    public TransactionDto getTransaction(Long transactionId) {
         return transactionService.getTransaction(transactionId);
     }
 
